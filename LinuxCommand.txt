@@ -1,0 +1,29 @@
+cd :- change directory
+pwd:- check for directory
+ls:- chech list 
+la -l :-show all directory
+la -a :- show all hidden files
+ll :- 	List the names of the files in the current directory along with the permissions, date, time and size
+
+1]file Command
+
+	cat :- create a file and add file with content
+	touch :- create empty file
+	cat > filename :- 
+
+copy/move and remove files
+
+mv :- used to rename or move file in same or another location
+cp:- copy file
+rename:- mv filename newfilename	
+
+display file content
+
+	cat :- show content
+	wc :- count the word in file
+
+delete file
+
+	rm :- remove file
+		rm filename .... 
+		
