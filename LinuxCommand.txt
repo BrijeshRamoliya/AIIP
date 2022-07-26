@@ -5,6 +5,10 @@ la -l :-show all directory
 la -a :- show all hidden files
 ll :- 	List the names of the files in the current directory along with the permissions, date, time and size
 
+1) Kernel
+Linux kernel is the core part of the operating system. It establishes communication between devices and software.
+ Moreover, it manages system resources. 
+
 file Command
 
 	cat :- create a file and add file with content
@@ -43,7 +47,7 @@ vim editor
 
 	we can search we can find or we can replace the data in vi editor.
 	it is requires very few resources.
-			cmd:-
+			cmd:-	
 					vi (filename)
 						create a new fie if it already doe not exit other wise open an existing file.
 					
@@ -95,7 +99,7 @@ User management
 					usermod -C "comment"
 					
 				delete user
-					userdal -r (name)
+					userdel -r (name)
 Group management
 
 		command:-
@@ -120,9 +124,22 @@ Group management
 					gpasswd -A "" (name group)
 					
 Service Management
+
+	Services are programs or processes that run on your server at all times, 
+	usually from the time a server boots up. 
 Log management
 SSH 
-Package managment using "yum", "rpm"
+Package managment using "yum", "rpm":- https://www.redhat.com/sysadmin/how-manage-packages
+
+  rpm:- (red hat package manager). work is fedora,centos,redhat.
+	rpm does not handle dependencies automatically.
+	=>RPM doesn't support automatic upgrades.
+  yum:- (Yellow Dog Updater, Modified) install automatically dependencies, check package.
+	It can also perform installation of new packages, removal of old packages and 
+	perform queries on the installed and/or 
+	available packages among many other commands/services (see below).
+	=>YUM allows automatic upgrades to the latest available version.
+  
 Apache Web Server
 
 
